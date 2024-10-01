@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 
 
@@ -17,6 +18,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     SidebarComponent,
     ContactPageComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent,
   ],
   imports: [
     CommonModule,
@@ -29,6 +31,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     SidebarComponent,
     ContactPageComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent
   ]
 })
 export class SharedModule { }
